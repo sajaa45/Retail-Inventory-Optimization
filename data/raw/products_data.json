@@ -1,0 +1,182 @@
+[
+    {
+        "Product Name":"Blueberry scented candle",
+        "Category":"Home Fragrance",
+        "Description":"A soothing candle with a blueberry scent to create a calming atmosphere.",
+        "Brand":"ScentCo",
+        "Color":"Blue",
+        "Size":"Small",
+        "Material":"Wax"
+    },
+    {
+        "Product Name":"Stainless steel water bottle",
+        "Category":"Accessories",
+        "Description":"A durable stainless steel water bottle for all your hydration needs.",
+        "Brand":"HydratePro",
+        "Color":"Silver",
+        "Size":"Medium",
+        "Material":"Stainless Steel"
+    },
+    {
+        "Product Name":"Leather messenger bag",
+        "Category":"Accessories",
+        "Description":"A stylish leather bag perfect for work or casual outings.",
+        "Brand":"Urban Gear",
+        "Color":"Brown",
+        "Size":"Medium",
+        "Material":"Leather"
+    },
+    {
+        "Product Name":"Organic coconut oil",
+        "Category":"Beauty & Wellness",
+        "Description":"Pure organic coconut oil for skincare, haircare, and cooking.",
+        "Brand":"CocoPure",
+        "Color":"Clear",
+        "Size":null,
+        "Material":"Coconut Oil"
+    },
+    {
+        "Product Name":"Bluetooth wireless earbuds",
+        "Category":"Electronics",
+        "Description":"High-quality wireless earbuds for crystal clear sound and comfort.",
+        "Brand":"SoundMax",
+        "Color":"Black",
+        "Size":"Small",
+        "Material":"Plastic\/Metal"
+    },
+    {
+        "Product Name":"Floral patterned throw pillow",
+        "Category":"Home Decor",
+        "Description":"A decorative throw pillow with a beautiful floral pattern for your living space.",
+        "Brand":"CozyHome",
+        "Color":"Multicolor",
+        "Size":"Small",
+        "Material":"Fabric"
+    },
+    {
+        "Product Name":"Bamboo cutting board set",
+        "Category":"Kitchenware",
+        "Description":"A set of eco-friendly bamboo cutting boards for food preparation.",
+        "Brand":"GreenChoice",
+        "Color":"Brown",
+        "Size":"Medium",
+        "Material":"Bamboo"
+    },
+    {
+        "Product Name":"Aromatherapy essential oil diffuser",
+        "Category":"Home Fragrance",
+        "Description":"A diffuser that disperses essential oils to create a relaxing environment.",
+        "Brand":"ZenMist",
+        "Color":"White",
+        "Size":"Small",
+        "Material":"Plastic\/Glass"
+    },
+    {
+        "Product Name":"Resistance band set",
+        "Category":"Fitness",
+        "Description":"A set of resistance bands for strength training and exercise routines.",
+        "Brand":"FitFlex",
+        "Color":"Varied",
+        "Size":null,
+        "Material":"Rubber"
+    },
+    {
+        "Product Name":"Ceramic plant pot with saucer",
+        "Category":"Home Decor",
+        "Description":"A stylish ceramic plant pot with an attached saucer for drainage.",
+        "Brand":"GreenThumb",
+        "Color":"White",
+        "Size":"Medium",
+        "Material":"Ceramic"
+    },
+    {
+        "Product Name":"Insulated lunch box",
+        "Category":"Accessories",
+        "Description":"A lunch box with thermal insulation to keep your food fresh and hot.",
+        "Brand":"LunchPro",
+        "Color":"Blue",
+        "Size":"Medium",
+        "Material":"Plastic"
+    },
+    {
+        "Product Name":"Himalayan salt lamp",
+        "Category":"Home Decor",
+        "Description":"A decorative salt lamp that provides a calming glow and air purification.",
+        "Brand":"PureSalt",
+        "Color":"Pink",
+        "Size":"Small",
+        "Material":"Himalayan Salt"
+    },
+    {
+        "Product Name":"Reusable silicone food storage bags",
+        "Category":"Kitchenware",
+        "Description":"Eco-friendly, reusable silicone bags for food storage.",
+        "Brand":"EcoBags",
+        "Color":"Clear",
+        "Size":"Various",
+        "Material":"Silicone"
+    },
+    {
+        "Product Name":"Handwoven rattan basket",
+        "Category":"Home Decor",
+        "Description":"A beautiful handwoven rattan basket for storage or decoration.",
+        "Brand":"CraftHome",
+        "Color":"Brown",
+        "Size":"Medium",
+        "Material":"Rattan"
+    },
+    {
+        "Product Name":"Yoga mat with carrying strap",
+        "Category":"Fitness",
+        "Description":"A non-slip yoga mat with a convenient carrying strap.",
+        "Brand":"YogaFlex",
+        "Color":"Purple",
+        "Size":"Large",
+        "Material":"PVC"
+    },
+    {
+        "Product Name":"Stainless steel french press coffee maker",
+        "Category":"Kitchenware",
+        "Description":"A sleek stainless steel French press for brewing fresh coffee.",
+        "Brand":"BrewMaster",
+        "Color":"Silver",
+        "Size":"Large",
+        "Material":"Stainless Steel"
+    },
+    {
+        "Product Name":"Memory foam travel neck pillow",
+        "Category":"Accessories",
+        "Description":"A comfortable memory foam pillow for neck support during travel.",
+        "Brand":"TravelEase",
+        "Color":"Gray",
+        "Size":"Small",
+        "Material":"Memory Foam"
+    },
+    {
+        "Product Name":"Glass meal prep containers set",
+        "Category":"Kitchenware",
+        "Description":"A set of glass containers for meal prepping and storing food.",
+        "Brand":"PrepSmart",
+        "Color":"Clear",
+        "Size":"Medium",
+        "Material":"Glass"
+    },
+    {
+        "Product Name":"Vegan leather wallet",
+        "Category":"Accessories",
+        "Description":"A stylish vegan leather wallet with multiple card slots.",
+        "Brand":"EcoStyle",
+        "Color":"Black",
+        "Size":"Small",
+        "Material":"Vegan Leather"
+    },
+    {
+        "Product Name":"LED desk lamp with USB charging port",
+        "Category":"Home Office",
+        "Description":"A modern LED desk lamp with a built-in USB charging port for convenience.",
+        "Brand":"LightTech",
+        "Color":"White",
+        "Size":"Medium",
+        "Material":"Plastic\/Metal"
+    }
+]
