@@ -41,9 +41,6 @@ def transform(data):
     if 'date' in data_frame.columns:  # Check for lowercase 'date'
         data_frame['date'] = pd.to_datetime(data_frame['date'], format='%d-%m-%Y', dayfirst=True, errors='coerce')
         
-        # Optionally handle NaT values
-        # For example, fill NaT with a specific date or drop them
-        # data_frame['date'].fillna(pd.Timestamp('1900-01-01'), inplace=True)
 
     # Step 5: Rename columns (if necessary)
     # Example: Rename columns to lowercase

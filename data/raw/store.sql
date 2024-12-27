@@ -1,6 +1,7 @@
-CREATE DATABASE retail_data;
-USE retail_data;
 
+-- CREATE DATABASE retail_data;
+-- USE retail_data;
+DROP TABLE IF EXISTS store;
 CREATE TABLE store (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),

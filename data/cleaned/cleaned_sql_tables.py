@@ -1,14 +1,11 @@
 import mysql.connector
+import sys
+import os
+# Add the parent directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
+from tests.test_db_connection import connection;
 
-# Establish a connection to your MySQL database
-conn = mysql.connector.connect(
-    host="192.168.0.18",
-    user="yasmine",
-    password="Default1234",
-    database="retail_data"  
-)
-
-cursor = conn.cursor()
+cursor = connection.cursor()
 
 # Function to display the content of a table
 def showcase_table(table_name):
@@ -26,4 +23,3 @@ showcase_table("product_table")  # Showcase product data
 
 # Close the connection
 cursor.close()
-conn.close()

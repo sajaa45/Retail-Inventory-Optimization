@@ -1,5 +1,9 @@
 USE retail_data;
 
+-- Drop tables if they exist
+DROP TABLE IF EXISTS sales_table;
+DROP TABLE IF EXISTS store_table;
+DROP TABLE IF EXISTS product_table;
 -- Create table for sales_data
 CREATE TABLE sales_table (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -10,13 +14,13 @@ CREATE TABLE sales_table (
     total_amount DECIMAL(10, 2)
 );
 
--- Create table for customer_data
-CREATE TABLE customer_table (
+-- Create table for store_data
+CREATE TABLE store_table (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255),
-    email VARCHAR(255),
-    phone VARCHAR(15),
-    address TEXT
+    name VARCHAR(100),
+    address VARCHAR(255),
+    city VARCHAR(100),
+    country VARCHAR(100)
 );
 
 -- Create table for product_data
