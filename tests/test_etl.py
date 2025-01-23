@@ -10,31 +10,17 @@ from etl.load_data import load
 
 
 
-def run_pipeline():
+def run_pipeline(choice):
     try:
-        
-        # Extract, transform, and print Store Data
-        print("Processing Store Data...")
-        raw_stock_data = extract("csv")
-        clean_stock_data = transform(raw_stock_data)
-        
-        # Extract, transform, and print Stock Data
-        print("\nProcessing Stock Data...")
-        raw_store_data = extract("db")
-        clean_store_data = transform(raw_store_data)
-
-        # Extract, transform, and print Product Data
-        print("\nProcessing Product Data...")
-        raw_product_data = extract("json")
-        clean_product_data = transform(raw_product_data)
-
-        # Load the cleaned data into the database
+        print("Processing Data...")
+        raw_data = extract(choice)
+        #transform Data
+        clean_data = transform(raw_data)
+         # Load the cleaned data into the database
         print("\nLoading Cleaned Data into Database...")
-        load(clean_store_data, "store_table")
-        load(clean_stock_data, "sales_table")
-        load(clean_product_data, "product_table")
-        
+        load(clean_data, "datawarehouse")
         print("ETL Pipeline completed successfully.")
+        
 
     except Exception as e:
         print(f"An error occurred during the ETL pipeline execution: {e}")

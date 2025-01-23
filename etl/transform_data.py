@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 
 def transform(data):
     """
@@ -38,9 +39,15 @@ def transform(data):
     data_frame = data_frame.drop_duplicates()
 
     # Step 4: Convert data types (example: converting a date column)
-    if 'date' in data_frame.columns:  # Check for lowercase 'date'
-        data_frame['date'] = pd.to_datetime(data_frame['date'], format='%d-%m-%Y', dayfirst=True, errors='coerce')
-        
+    if 'date' in data_frame.columns:
+        # Apply regex to standardize date format (e.g., d-m-Y to d/m/Y)
+        data_frame['date'] = data_frame['date'].apply(
+                lambda x: re.sub(r'(\d{1,2})-(\d{1,2})-(\d{4})', r'\1/\2/\3', str(x))  # Ensure 'x' is a string
+            )
+        print(data_frame['date'].head())  # Check before and after applying regex
+
+        # Convert 'date' column to datetime format
+        data_frame['date'] = pd.to_datetime(data_frame['date'], format='%d/%m/%Y', dayfirst=True, errors='coerce')
 
     # Step 5: Rename columns (if necessary)
     # Example: Rename columns to lowercase

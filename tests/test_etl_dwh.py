@@ -1,34 +1,77 @@
 import sys
 import os
-
-
+import pandas as pd
+from tests.test_db_connection import test_database_connection
+import re
 # Add the parent directory to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from etl.dwh.extract_dwh import extract
-from etl.dwh.transform_dwh import transform
-from etl.dwh.load_dwh import load
 
 def run_dwh_process():
-    print("Starting the Data Warehouse ETL process...")
+    try:
+        connection = test_database_connection()
+        # Step 2: Load the datawarehouse table into a Pandas DataFrame
+        print("Loading data from the 'datawarehouse' table...")
+        query = "SELECT * FROM datawarehouse"
+        datawarehouse_df = pd.read_sql(query, connection)
+        print(f"Loaded {len(datawarehouse_df)} rows from 'datawarehouse'.")
 
-    # Step 1: Extract data
-    print("Extracting data from cleaned tables...")
-    store_data, sales_data, product_data = extract()
-    print("Data extraction complete.")
+        # Step 3: Create dimension tables
+        
+        # Store Dimension
+        store = datawarehouse_df[['store', 'name', 'address', 'city', 'country']].drop_duplicates().reset_index(drop=True)
+        print(f"Store Dimension created with {len(store)} rows.")
+        
+        # Product Dimension
+        product = datawarehouse_df[['product name', 'category', 'description', 'brand', 'color', 'size', 'material']].drop_duplicates().reset_index(drop=True)
+        print(f"Product Dimension created with {len(product)} rows.")
+        
+        # Time Dimension
+        datawarehouse_df['date'] = datawarehouse_df['date'].apply(
+            lambda x: re.sub(r'(\d{1,2})-(\d{1,2})-(\d{4})', r'\1/\2/\3', x)
+        )
+        datee = pd.to_datetime(datawarehouse_df['date'], errors='coerce', dayfirst=True)
 
-    # Step 2: Transform data
-    print("Transforming data for dimensions and facts...")
-    store_dim, product_dim, dim_date, sales_fact = transform(store_data, sales_data, product_data)
-    print("Data transformation complete.")
+        # Extract year, month, and day using .dt accessor for efficiency
+        # We keep only the date part
+        datawarehouse_df['date'] = datee.dt.date
 
-    # Step 3: Load data into the Data Warehouse
-    print("Loading data into the Data Warehouse...")
-    load(store_dim, product_dim, dim_date, sales_fact)
-    print("Data loading complete.")
+        # Create a new time dimension DataFrame without the time
+        time = datawarehouse_df[['date']].copy()
+
+        # Extract year, month, and day directly
+        time['year'] = datee.dt.year
+        time['month'] = datee.dt.month
+        time['day'] = datee.dt.day
+
+        # Now 'time' contains the year, month, and day from the 'date' column, without time
+
+
+        # Drop duplicates and reset index
+        time = time.drop_duplicates().reset_index(drop=True)
+
+        print(f"Time Dimension created with {len(time)} rows.")
+
+        # Step 4: Create fact table
+        sales_fact = datawarehouse_df[['id', 'store', 'date', 'product name', 'weekly_sales', 'inventory level', 'temperature', 'past promotion of product in lac', 'demand forecast']].drop_duplicates().reset_index(drop=True)
+        print(f"Sales Fact table created with {len(sales_fact)} rows.")
+        # Step 5: Load fact and dimension tables into the database
+        print("Loading dimension and fact tables into the database...")
+
+        store.to_sql('store', con=connection, if_exists='replace', index=False)
+
+        product.to_sql('product', con=connection, if_exists='replace', index=False)
+        time.to_sql('time', con=connection, if_exists='replace', index=False)
+        sales_fact.to_sql('sales_fact', con=connection, if_exists='replace', index=False)
+        connection.commit()
+        print("Process completed successfully!")
     
+    except Exception as e:
+        print(f"An error occurred: {e}")
     
-    print("Data Warehouse ETL process completed successfully.")
+    finally:
+        connection.close()
+        print("Database connection closed.")
 
 if __name__ == "__main__":
     run_dwh_process()
