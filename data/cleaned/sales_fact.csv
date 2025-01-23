@@ -1,0 +1,500 @@
+id,store,date,product name,weekly_sales,inventory level,temperature,past promotion of product in lac,demand forecast
+1,1,2010-02-05,Blueberry scented candle,1643690.9,0,42.31,2.572,8.106
+2,4,2010-02-12,Stainless steel water bottle,1641957.44,1,38.51,2.548,8.106
+3,5,2010-02-19,Leather messenger bag,1611968.17,0,39.93,2.514,8.106
+4,2,2010-02-26,Organic coconut oil,1409727.59,0,46.63,2.561,8.106
+5,3,2010-03-05,Bluetooth wireless earbuds,1554806.68,0,46.5,2.625,8.106
+6,2,2010-03-12,Floral patterned throw pillow,1439541.59,0,57.79,2.667,8.106
+7,1,2010-03-19,Bamboo cutting board set,1472515.79,0,54.58,2.72,8.106
+8,4,2010-03-26,Aromatherapy essential oil diffuser,1404429.92,0,51.45,2.732,8.106
+9,5,2010-04-02,Resistance band set,1594968.28,0,62.27,2.719,7.808
+10,2,2010-04-09,Ceramic plant pot with saucer,1545418.53,0,65.86,2.77,7.808
+11,3,2010-04-16,Insulated lunch box,1466058.28,0,66.32,2.808,7.808
+12,1,2010-04-23,Himalayan salt lamp,1391256.12,0,64.84,2.795,7.808
+13,4,2010-04-30,Reusable silicone food storage bags,1425100.71,0,67.41,2.78,7.808
+14,5,2010-05-07,Handwoven rattan basket,1603955.12,0,72.55,2.835,7.808
+15,2,2010-05-14,Yoga mat with carrying strap,1494251.5,0,74.78,2.854,7.808
+16,3,2010-05-21,Stainless steel french press coffee maker,1399662.07,0,76.44,2.826,7.808
+17,2,2010-05-28,Memory foam travel neck pillow,1432069.95,0,80.44,2.759,7.808
+18,1,2010-06-04,Glass meal prep containers set,1615524.71,0,80.69,2.705,7.808
+19,4,2010-06-11,Vegan leather wallet,1542561.09,0,80.43,2.668,7.808
+20,5,2010-06-18,LED desk lamp with USB charging port,1503284.06,0,84.11,2.637,7.808
+21,2,2010-06-25,Blueberry scented candle,1422711.6,0,84.34,2.653,7.808
+22,3,2010-07-02,Stainless steel water bottle,1492418.14,0,80.91,2.669,7.787
+23,1,2010-07-09,Leather messenger bag,1546074.18,0,80.48,2.642,7.787
+24,4,2010-07-16,Organic coconut oil,1448938.92,0,83.15,2.623,7.787
+25,5,2010-07-23,Bluetooth wireless earbuds,1385065.2,0,83.36,2.608,7.787
+26,2,2010-07-30,Floral patterned throw pillow,1371986.6,0,81.84,2.64,7.787
+27,3,2010-08-06,Bamboo cutting board set,1605491.78,0,87.16,2.627,7.787
+28,2,2010-08-13,Aromatherapy essential oil diffuser,1508237.76,0,87.0,2.692,7.787
+29,1,2010-08-20,Resistance band set,1513080.49,0,86.65,2.664,7.787
+30,4,2010-08-27,Ceramic plant pot with saucer,1449142.92,0,85.22,2.619,7.787
+31,5,2010-09-03,Insulated lunch box,1540163.53,0,81.21,2.577,7.787
+32,2,2010-09-10,Himalayan salt lamp,1507460.69,1,78.69,2.565,7.787
+33,3,2010-09-17,Reusable silicone food storage bags,1430378.67,0,82.11,2.582,7.787
+34,1,2010-09-24,Handwoven rattan basket,1351791.03,0,80.94,2.624,7.787
+35,4,2010-10-01,Yoga mat with carrying strap,1453329.5,0,71.89,2.603,7.838
+36,5,2010-10-08,Stainless steel french press coffee maker,1508239.93,0,63.93,2.633,7.838
+37,2,2010-10-15,Memory foam travel neck pillow,1459409.1,0,67.18,2.72,7.838
+38,3,2010-10-22,Glass meal prep containers set,1345454.0,0,69.86,2.725,7.838
+39,2,2010-10-29,Vegan leather wallet,1384209.22,0,69.64,2.716,7.838
+40,1,2010-11-05,LED desk lamp with USB charging port,1551659.28,0,58.74,2.689,7.838
+41,4,2010-11-12,Blueberry scented candle,1494479.49,0,59.61,2.728,7.838
+42,5,2010-11-19,Stainless steel water bottle,1483784.18,0,51.41,2.771,7.838
+43,2,2010-11-26,Leather messenger bag,1955624.11,1,64.52,2.735,7.838
+44,3,2010-12-03,Organic coconut oil,1548033.78,0,49.27,2.708,7.838
+45,1,2010-12-10,Bluetooth wireless earbuds,1682614.26,0,46.33,2.843,7.838
+46,4,2010-12-17,Floral patterned throw pillow,1891034.93,0,49.84,2.869,7.838
+47,5,2010-12-24,Bamboo cutting board set,2387950.2,0,52.33,2.886,7.838
+48,2,2010-12-31,Aromatherapy essential oil diffuser,1367320.01,1,48.43,2.943,7.838
+49,3,2011-01-07,Resistance band set,1444732.28,0,48.27,2.976,7.742
+50,2,2011-01-14,Ceramic plant pot with saucer,1391013.96,0,35.4,2.983,7.742
+51,1,2011-01-21,Insulated lunch box,1327405.42,0,44.04,3.016,7.742
+52,4,2011-01-28,Himalayan salt lamp,1316899.31,0,43.83,3.01,7.742
+53,5,2011-02-04,Reusable silicone food storage bags,1606629.58,0,42.27,2.989,7.742
+54,2,2011-02-11,Handwoven rattan basket,1649614.93,1,36.39,3.022,7.742
+55,3,2011-02-18,Yoga mat with carrying strap,1686842.78,0,57.36,3.045,7.742
+56,1,2011-02-25,Stainless steel french press coffee maker,1456800.28,0,62.9,3.065,7.742
+57,4,2011-03-04,Memory foam travel neck pillow,1636263.41,0,59.58,3.288,7.742
+58,5,2011-03-11,Glass meal prep containers set,1553191.63,0,53.56,3.459,7.742
+59,2,2011-03-18,Vegan leather wallet,1576818.06,0,62.76,3.488,7.742
+60,3,2011-03-25,LED desk lamp with USB charging port,1541102.38,0,69.97,3.473,7.742
+61,2,2011-04-01,Blueberry scented candle,1495064.75,0,59.17,3.524,7.682
+62,1,2011-04-08,Stainless steel water bottle,1614259.35,0,67.84,3.622,7.682
+63,4,2011-04-15,Leather messenger bag,1559889.0,0,71.27,3.743,7.682
+64,5,2011-04-22,Organic coconut oil,1564819.81,0,72.99,3.807,7.682
+65,2,2011-04-29,Bluetooth wireless earbuds,1455090.69,0,72.03,3.81,7.682
+66,3,2011-05-06,Floral patterned throw pillow,1629391.28,0,64.61,3.906,7.682
+67,1,2011-05-13,Bamboo cutting board set,1604775.58,0,75.64,3.899,7.682
+68,4,2011-05-20,Aromatherapy essential oil diffuser,1428218.27,0,67.63,3.907,7.682
+69,5,2011-05-27,Resistance band set,1466046.67,0,77.72,3.786,7.682
+70,2,2011-06-03,Ceramic plant pot with saucer,1635078.41,0,83.0,3.699,7.682
+71,3,2011-06-10,Insulated lunch box,1588948.32,0,83.13,3.648,7.682
+72,2,2011-06-17,Himalayan salt lamp,1532114.86,0,86.41,3.637,7.682
+73,1,2011-06-24,Reusable silicone food storage bags,1438830.15,0,83.58,3.594,7.682
+74,4,2011-07-01,Handwoven rattan basket,1488538.09,0,85.55,3.524,7.962
+75,5,2011-07-08,Yoga mat with carrying strap,1534849.64,0,85.83,3.48,7.962
+76,2,2011-07-15,Stainless steel french press coffee maker,1455119.97,0,88.54,3.575,7.962
+77,3,2011-07-22,Memory foam travel neck pillow,1396926.82,0,85.77,3.651,7.962
+78,1,2011-07-29,Glass meal prep containers set,1352219.79,0,86.83,3.682,7.962
+79,4,2011-08-05,Vegan leather wallet,1624383.75,0,91.65,3.684,7.962
+80,5,2011-08-12,LED desk lamp with USB charging port,1525147.09,0,90.76,3.638,7.962
+81,2,2011-08-19,Blueberry scented candle,1530761.43,0,89.94,3.554,7.962
+82,3,2011-08-26,Stainless steel water bottle,1464693.46,0,87.96,3.523,7.962
+83,2,2011-09-02,Leather messenger bag,1550229.22,0,87.83,3.533,7.962
+84,1,2011-09-09,Organic coconut oil,1540471.24,1,76.0,3.546,7.962
+85,4,2011-09-16,Bluetooth wireless earbuds,1514259.78,0,79.94,3.526,7.962
+86,5,2011-09-23,Floral patterned throw pillow,1380020.27,0,75.8,3.467,7.962
+87,2,2011-09-30,Bamboo cutting board set,1394561.83,0,79.69,3.355,7.962
+88,3,2011-10-07,Aromatherapy essential oil diffuser,1630989.95,0,69.31,3.285,7.866
+89,1,2011-10-14,Resistance band set,1493525.93,0,71.74,3.274,7.866
+90,4,2011-10-21,Ceramic plant pot with saucer,1502562.78,0,63.71,3.353,7.866
+91,5,2011-10-28,Insulated lunch box,1445249.09,0,66.57,3.372,7.866
+92,2,2011-11-04,Himalayan salt lamp,1697229.58,0,54.98,3.332,7.866
+93,3,2011-11-11,Reusable silicone food storage bags,1594938.89,0,59.11,3.297,7.866
+94,2,2011-11-18,Handwoven rattan basket,1539483.7,0,62.25,3.308,7.866
+95,1,2011-11-25,Yoga mat with carrying strap,2033320.66,1,60.14,3.236,7.866
+96,4,2011-12-02,Stainless steel french press coffee maker,1584083.95,0,48.91,3.172,7.866
+97,5,2011-12-09,Memory foam travel neck pillow,1799682.38,0,43.93,3.158,7.866
+98,2,2011-12-16,Glass meal prep containers set,1881176.67,0,51.63,3.159,7.866
+99,3,2011-12-23,Vegan leather wallet,2270188.99,0,47.96,3.112,7.866
+100,1,2011-12-30,LED desk lamp with USB charging port,1497462.72,1,44.55,3.129,7.866
+101,4,2012-01-06,Blueberry scented candle,1550369.92,0,49.01,3.157,7.348
+102,5,2012-01-13,Stainless steel water bottle,1459601.17,0,48.53,3.261,7.348
+103,2,2012-01-20,Leather messenger bag,1394393.84,0,54.11,3.268,7.348
+104,3,2012-01-27,Organic coconut oil,1319325.59,0,54.26,3.29,7.348
+105,2,2012-02-03,Bluetooth wireless earbuds,1636339.65,0,56.55,3.36,7.348
+106,1,2012-02-10,Floral patterned throw pillow,1802477.43,1,48.02,3.409,7.348
+107,4,2012-02-17,Bamboo cutting board set,1819870.0,0,45.32,3.51,7.348
+108,5,2012-02-24,Aromatherapy essential oil diffuser,1539387.83,0,57.25,3.555,7.348
+109,2,2012-03-02,Resistance band set,1688420.76,0,60.96,3.63,7.348
+110,3,2012-03-09,Ceramic plant pot with saucer,1675431.16,0,58.76,3.669,7.348
+111,2,2012-03-16,Insulated lunch box,1677472.78,0,64.74,3.734,7.348
+112,1,2012-03-23,Himalayan salt lamp,1511068.07,0,65.93,3.787,7.348
+113,4,2012-03-30,Reusable silicone food storage bags,1649604.63,0,67.61,3.845,7.348
+114,5,2012-04-06,Handwoven rattan basket,1899676.88,0,70.43,3.891,7.143
+115,2,2012-04-13,Yoga mat with carrying strap,1621031.7,0,69.07,3.891,7.143
+116,3,2012-04-20,Stainless steel french press coffee maker,1521577.87,0,66.76,3.877,7.143
+117,1,2012-04-27,Memory foam travel neck pillow,1468928.37,0,67.23,3.814,7.143
+118,4,2012-05-04,Glass meal prep containers set,1684519.99,0,75.55,3.749,7.143
+119,5,2012-05-11,Vegan leather wallet,1611096.05,0,73.77,3.688,7.143
+120,2,2012-05-18,LED desk lamp with USB charging port,1595901.87,0,70.33,3.63,7.143
+121,3,2012-05-25,Blueberry scented candle,1555444.55,0,77.22,3.561,7.143
+122,2,2012-06-01,Stainless steel water bottle,1624477.58,0,77.95,3.501,7.143
+123,1,2012-06-08,Leather messenger bag,1697230.96,0,78.3,3.452,7.143
+124,4,2012-06-15,Organic coconut oil,1630607.0,0,79.35,3.393,7.143
+125,5,2012-06-22,Bluetooth wireless earbuds,1527845.81,0,78.39,3.346,7.143
+126,2,2012-06-29,Floral patterned throw pillow,1540421.49,0,84.88,3.286,7.143
+127,3,2012-07-06,Bamboo cutting board set,1769854.16,0,81.57,3.227,6.908
+128,1,2012-07-13,Aromatherapy essential oil diffuser,1527014.04,0,77.12,3.256,6.908
+129,4,2012-07-20,Resistance band set,1497954.76,0,80.42,3.311,6.908
+130,5,2012-07-27,Ceramic plant pot with saucer,1439123.71,0,82.66,3.407,6.908
+131,2,2012-08-03,Insulated lunch box,1631135.79,0,86.11,3.417,6.908
+132,3,2012-08-10,Himalayan salt lamp,1592409.97,0,85.05,3.494,6.908
+133,2,2012-08-17,Reusable silicone food storage bags,1597868.05,0,84.85,3.571,6.908
+134,1,2012-08-24,Handwoven rattan basket,1494122.38,0,77.66,3.62,6.908
+135,4,2012-08-31,Yoga mat with carrying strap,1582083.4,0,80.49,3.638,6.908
+136,5,2012-09-07,Stainless steel french press coffee maker,1661767.33,1,83.96,3.73,6.908
+137,2,2012-09-14,Memory foam travel neck pillow,1517428.87,0,74.97,3.717,6.908
+138,3,2012-09-21,Glass meal prep containers set,1506126.06,0,69.87,3.721,6.908
+139,1,2012-09-28,Vegan leather wallet,1437059.26,0,76.08,3.666,6.908
+140,4,2012-10-05,LED desk lamp with USB charging port,1670785.97,0,68.55,3.617,6.573
+141,5,2012-10-12,Blueberry scented candle,1573072.81,0,62.99,3.601,6.573
+142,2,2012-10-19,Stainless steel water bottle,1508068.77,0,67.97,3.594,6.573
+143,3,2012-10-26,Leather messenger bag,1493659.74,0,69.16,3.506,6.573
+144,2,2010-02-05,Organic coconut oil,2136989.46,0,40.19,2.572,8.324
+145,1,2010-02-12,Bluetooth wireless earbuds,2137809.5,1,38.49,2.548,8.324
+146,4,2010-02-19,Floral patterned throw pillow,2124451.54,0,39.69,2.514,8.324
+147,5,2010-02-26,Bamboo cutting board set,1865097.27,0,46.1,2.561,8.324
+148,2,2010-03-05,Aromatherapy essential oil diffuser,1991013.13,0,47.17,2.625,8.324
+149,3,2010-03-12,Resistance band set,1990483.78,0,57.56,2.667,8.324
+150,1,2010-03-19,Ceramic plant pot with saucer,1946070.88,0,54.52,2.72,8.324
+151,4,2010-03-26,Insulated lunch box,1750197.81,0,51.26,2.732,8.324
+152,5,2010-04-02,Himalayan salt lamp,2066187.72,0,63.27,2.719,8.2
+153,2,2010-04-09,Reusable silicone food storage bags,1954689.21,0,65.41,2.77,8.2
+154,3,2010-04-16,Handwoven rattan basket,1874957.94,0,68.07,2.808,8.2
+155,2,2010-04-23,Yoga mat with carrying strap,1821990.93,0,65.11,2.795,8.2
+156,1,2010-04-30,Stainless steel french press coffee maker,1802450.29,0,66.98,2.78,8.2
+157,4,2010-05-07,Memory foam travel neck pillow,2042581.71,0,71.28,2.835,8.2
+158,5,2010-05-14,Glass meal prep containers set,1880752.36,0,73.31,2.854,8.2
+159,2,2010-05-21,Vegan leather wallet,1896937.1,0,74.83,2.826,8.2
+160,3,2010-05-28,LED desk lamp with USB charging port,1957113.89,0,81.13,2.759,8.2
+161,1,2010-06-04,Blueberry scented candle,2102539.93,0,81.81,2.705,8.2
+162,4,2010-06-11,Stainless steel water bottle,2025538.76,0,83.4,2.668,8.2
+163,5,2010-06-18,Leather messenger bag,2001636.96,0,85.81,2.637,8.2
+164,2,2010-06-25,Organic coconut oil,1939927.09,0,86.26,2.653,8.2
+165,3,2010-07-02,Bluetooth wireless earbuds,2003940.64,0,82.74,2.669,8.099
+166,2,2010-07-09,Floral patterned throw pillow,1880902.62,0,82.59,2.642,8.099
+167,1,2010-07-16,Bamboo cutting board set,1845879.79,0,85.32,2.623,8.099
+168,4,2010-07-23,Aromatherapy essential oil diffuser,1781717.71,0,87.66,2.608,8.099
+169,5,2010-07-30,Resistance band set,1804246.16,0,83.49,2.64,8.099
+170,2,2010-08-06,Ceramic plant pot with saucer,1991909.98,0,89.53,2.627,8.099
+171,3,2010-08-13,Insulated lunch box,1895601.05,0,89.05,2.692,8.099
+172,1,2010-08-20,Himalayan salt lamp,1964335.23,0,88.7,2.664,8.099
+173,4,2010-08-27,Reusable silicone food storage bags,1863840.49,0,87.12,2.619,8.099
+174,5,2010-09-03,Handwoven rattan basket,1904608.09,0,81.83,2.577,8.099
+175,2,2010-09-10,Yoga mat with carrying strap,1839128.83,1,79.09,2.565,8.099
+176,3,2010-09-17,Stainless steel french press coffee maker,1793903.6,0,82.05,2.582,8.099
+177,2,2010-09-24,Memory foam travel neck pillow,1724557.22,0,81.79,2.624,8.099
+178,1,2010-10-01,Glass meal prep containers set,1827440.43,0,69.24,2.603,8.163
+179,4,2010-10-08,Vegan leather wallet,1849921.44,0,63.19,2.633,8.163
+180,5,2010-10-15,LED desk lamp with USB charging port,1794355.49,0,65.8,2.72,8.163
+181,2,2010-10-22,Blueberry scented candle,1737947.64,0,68.5,2.725,8.163
+182,3,2010-10-29,Stainless steel water bottle,1802755.11,0,66.24,2.716,8.163
+183,1,2010-11-05,Leather messenger bag,1939061.41,0,57.85,2.689,8.163
+184,4,2010-11-12,Organic coconut oil,1916812.74,0,59.69,2.728,8.163
+185,5,2010-11-19,Bluetooth wireless earbuds,1956739.17,0,50.81,2.771,8.163
+186,2,2010-11-26,Floral patterned throw pillow,2658725.29,1,62.98,2.735,8.163
+187,3,2010-12-03,Bamboo cutting board set,2015781.27,0,49.33,2.708,8.163
+188,2,2010-12-10,Aromatherapy essential oil diffuser,2378726.55,0,45.5,2.843,8.163
+189,1,2010-12-17,Resistance band set,2609166.75,0,47.55,2.869,8.163
+190,4,2010-12-24,Ceramic plant pot with saucer,3436007.68,0,49.97,2.886,8.163
+191,5,2010-12-31,Insulated lunch box,1750434.55,1,47.3,2.943,8.163
+192,2,2011-01-07,Himalayan salt lamp,1758050.79,0,44.69,2.976,8.028
+193,3,2011-01-14,Reusable silicone food storage bags,1744193.58,0,33.02,2.983,8.028
+194,1,2011-01-21,Handwoven rattan basket,1751384.9,0,41.4,3.016,8.028
+195,4,2011-01-28,Yoga mat with carrying strap,1695371.68,0,42.83,3.01,8.028
+196,5,2011-02-04,Stainless steel french press coffee maker,1929346.23,0,38.25,2.989,8.028
+197,2,2011-02-11,Memory foam travel neck pillow,2168041.61,1,33.19,3.022,8.028
+198,3,2011-02-18,Glass meal prep containers set,2080884.82,0,57.83,3.045,8.028
+199,2,2011-02-25,Vegan leather wallet,1833511.08,0,60.8,3.065,8.028
+200,1,2011-03-04,LED desk lamp with USB charging port,1981607.78,0,57.77,3.288,8.028
+201,4,2011-03-11,Blueberry scented candle,1879107.31,0,52.7,3.459,8.028
+202,5,2011-03-18,Stainless steel water bottle,1902557.66,0,62.32,3.488,8.028
+203,2,2011-03-25,Leather messenger bag,1766162.05,0,69.42,3.473,8.028
+204,3,2011-04-01,Organic coconut oil,1800171.36,0,55.43,3.524,7.931
+205,1,2011-04-08,Bluetooth wireless earbuds,1847552.61,0,67.0,3.622,7.931
+206,4,2011-04-15,Floral patterned throw pillow,1856467.84,0,69.48,3.743,7.931
+207,5,2011-04-22,Bamboo cutting board set,1886339.6,0,69.39,3.807,7.931
+208,2,2011-04-29,Aromatherapy essential oil diffuser,1745545.28,0,69.21,3.81,7.931
+209,3,2011-05-06,Resistance band set,1837743.6,0,61.48,3.906,7.931
+210,2,2011-05-13,Ceramic plant pot with saucer,1838513.07,0,74.61,3.899,7.931
+211,1,2011-05-20,Insulated lunch box,1688281.86,0,67.14,3.907,7.931
+212,4,2011-05-27,Himalayan salt lamp,1797732.56,0,76.42,3.786,7.931
+213,5,2011-06-03,Reusable silicone food storage bags,1933756.21,0,83.07,3.699,7.931
+214,2,2011-06-10,Handwoven rattan basket,1929153.16,0,83.4,3.648,7.931
+215,3,2011-06-17,Yoga mat with carrying strap,1953771.99,0,86.53,3.637,7.931
+216,2,2011-06-24,Stainless steel french press coffee maker,1790925.8,0,85.17,3.594,7.931
+217,1,2011-07-01,Memory foam travel neck pillow,1866243.0,0,85.69,3.524,7.852
+218,4,2011-07-08,Glass meal prep containers set,1853161.99,0,87.7,3.48,7.852
+219,5,2011-07-15,Vegan leather wallet,1785187.29,0,89.83,3.575,7.852
+220,2,2011-07-22,LED desk lamp with USB charging port,1743816.41,0,89.34,3.651,7.852
+221,3,2011-07-29,Blueberry scented candle,1680693.06,0,90.07,3.682,7.852
+222,1,2011-08-05,Stainless steel water bottle,1876704.26,0,93.34,3.684,7.852
+223,4,2011-08-12,Leather messenger bag,1812768.26,0,91.58,3.638,7.852
+224,5,2011-08-19,Organic coconut oil,1844094.59,0,89.86,3.554,7.852
+225,2,2011-08-26,Bluetooth wireless earbuds,1821139.91,0,90.45,3.523,7.852
+226,3,2011-09-02,Floral patterned throw pillow,1809119.7,0,89.64,3.533,7.852
+227,2,2011-09-09,Bamboo cutting board set,1748000.65,1,77.97,3.546,7.852
+228,1,2011-09-16,Aromatherapy essential oil diffuser,1691439.52,0,78.85,3.526,7.852
+229,4,2011-09-23,Resistance band set,1669299.78,0,75.58,3.467,7.852
+230,5,2011-09-30,Ceramic plant pot with saucer,1650394.44,0,78.14,3.355,7.852
+231,2,2011-10-07,Insulated lunch box,1837553.43,0,69.92,3.285,7.441
+232,3,2011-10-14,Himalayan salt lamp,1743882.19,0,71.67,3.274,7.441
+233,1,2011-10-21,Reusable silicone food storage bags,1834680.25,0,64.53,3.353,7.441
+234,4,2011-10-28,Handwoven rattan basket,1769296.25,0,65.87,3.372,7.441
+235,5,2011-11-04,Yoga mat with carrying strap,1959707.9,0,55.53,3.332,7.441
+236,2,2011-11-11,Stainless steel french press coffee maker,1920725.15,0,59.33,3.297,7.441
+237,3,2011-11-18,Memory foam travel neck pillow,1902762.5,0,62.01,3.308,7.441
+238,2,2011-11-25,Glass meal prep containers set,2614202.3,1,56.36,3.236,7.441
+239,1,2011-12-02,Vegan leather wallet,1954952.0,0,48.74,3.172,7.441
+240,4,2011-12-09,LED desk lamp with USB charging port,2290549.32,0,41.76,3.158,7.441
+241,5,2011-12-16,Blueberry scented candle,2432736.52,0,50.13,3.159,7.441
+242,2,2011-12-23,Stainless steel water bottle,3224369.8,0,46.66,3.112,7.441
+243,3,2011-12-30,Leather messenger bag,1874226.52,1,44.57,3.129,7.441
+244,1,2012-01-06,Organic coconut oil,1799520.14,0,46.75,3.157,7.057
+245,4,2012-01-13,Bluetooth wireless earbuds,1744725.48,0,45.99,3.261,7.057
+246,5,2012-01-20,Floral patterned throw pillow,1711769.11,0,51.7,3.268,7.057
+247,2,2012-01-27,Bamboo cutting board set,1660906.14,0,50.5,3.29,7.057
+248,3,2012-02-03,Aromatherapy essential oil diffuser,1935299.94,0,55.21,3.36,7.057
+249,2,2012-02-10,Resistance band set,2103322.68,1,46.98,3.409,7.057
+250,1,2012-02-17,Ceramic plant pot with saucer,2196688.46,0,43.82,3.51,7.057
+251,4,2012-02-24,Insulated lunch box,1861802.7,0,54.63,3.555,7.057
+252,5,2012-03-02,Himalayan salt lamp,1952555.66,0,58.79,3.63,7.057
+253,2,2012-03-09,Reusable silicone food storage bags,1937628.26,0,57.11,3.669,7.057
+254,3,2012-03-16,Handwoven rattan basket,1976082.13,0,63.68,3.734,7.057
+255,1,2012-03-23,Yoga mat with carrying strap,1790439.16,0,64.01,3.787,7.057
+256,4,2012-03-30,Stainless steel french press coffee maker,1857480.84,0,66.83,3.845,7.057
+257,5,2012-04-06,Memory foam travel neck pillow,2129035.91,0,68.43,3.891,6.891
+258,2,2012-04-13,Glass meal prep containers set,1935869.1,0,68.08,3.891,6.891
+259,3,2012-04-20,Vegan leather wallet,1847344.45,0,65.69,3.877,6.891
+260,2,2012-04-27,LED desk lamp with USB charging port,1764133.09,0,67.2,3.814,6.891
+261,1,2012-05-04,Blueberry scented candle,1923957.09,0,76.73,3.749,6.891
+262,4,2012-05-11,Stainless steel water bottle,1917520.99,0,73.87,3.688,6.891
+263,5,2012-05-18,Leather messenger bag,2000940.67,0,71.27,3.63,6.891
+264,2,2012-05-25,Organic coconut oil,1912791.09,0,78.19,3.561,6.891
+265,3,2012-06-01,Bluetooth wireless earbuds,1910092.37,0,78.38,3.501,6.891
+266,1,2012-06-08,Floral patterned throw pillow,2010216.49,0,78.69,3.452,6.891
+267,4,2012-06-15,Bamboo cutting board set,1962924.3,0,80.56,3.393,6.891
+268,5,2012-06-22,Aromatherapy essential oil diffuser,1887733.21,0,81.04,3.346,6.891
+269,2,2012-06-29,Resistance band set,1881046.12,0,86.32,3.286,6.891
+270,3,2012-07-06,Ceramic plant pot with saucer,2041507.4,0,84.2,3.227,6.565
+271,2,2012-07-13,Insulated lunch box,1830075.13,0,80.17,3.256,6.565
+272,1,2012-07-20,Himalayan salt lamp,1819666.46,0,83.23,3.311,6.565
+273,4,2012-07-27,Reusable silicone food storage bags,1757923.88,0,86.37,3.407,6.565
+274,5,2012-08-03,Handwoven rattan basket,1946104.64,0,90.22,3.417,6.565
+275,2,2012-08-10,Yoga mat with carrying strap,1866719.96,0,88.55,3.494,6.565
+276,3,2012-08-17,Stainless steel french press coffee maker,1928016.01,0,84.79,3.571,6.565
+277,1,2012-08-24,Memory foam travel neck pillow,1876788.15,0,76.91,3.62,6.565
+278,4,2012-08-31,Glass meal prep containers set,1947083.3,0,82.64,3.638,6.565
+279,5,2012-09-07,Vegan leather wallet,1898777.07,1,87.65,3.73,6.565
+280,2,2012-09-14,LED desk lamp with USB charging port,1814806.63,0,75.88,3.717,6.565
+281,3,2012-09-21,Blueberry scented candle,1829415.67,0,71.09,3.721,6.565
+282,2,2012-09-28,Stainless steel water bottle,1746470.56,0,79.45,3.666,6.565
+283,1,2012-10-05,Leather messenger bag,1998321.04,0,70.27,3.617,6.17
+284,4,2012-10-12,Organic coconut oil,1900745.13,0,60.97,3.601,6.17
+285,5,2012-10-19,Bluetooth wireless earbuds,1847990.41,0,68.08,3.594,6.17
+286,2,2012-10-26,Floral patterned throw pillow,1834458.35,0,69.79,3.506,6.17
+287,3,2010-02-05,Bamboo cutting board set,461622.22,0,45.71,2.572,7.368
+288,1,2010-02-12,Aromatherapy essential oil diffuser,420728.96,1,47.93,2.548,7.368
+289,4,2010-02-19,Resistance band set,421642.19,0,47.07,2.514,7.368
+290,5,2010-02-26,Ceramic plant pot with saucer,407204.86,0,52.05,2.561,7.368
+291,2,2010-03-05,Insulated lunch box,415202.04,0,53.04,2.625,7.368
+292,3,2010-03-12,Himalayan salt lamp,384200.69,0,63.08,2.667,7.368
+293,2,2010-03-19,Reusable silicone food storage bags,375328.59,0,60.42,2.72,7.368
+294,1,2010-03-26,Handwoven rattan basket,359949.27,0,57.06,2.732,7.368
+295,4,2010-04-02,Yoga mat with carrying strap,423294.4,0,65.56,2.719,7.343
+296,5,2010-04-09,Stainless steel french press coffee maker,415870.28,0,68.0,2.77,7.343
+297,2,2010-04-16,Memory foam travel neck pillow,354993.26,0,66.98,2.808,7.343
+298,3,2010-04-23,Glass meal prep containers set,339976.65,0,67.87,2.795,7.343
+299,1,2010-04-30,Vegan leather wallet,361248.39,0,70.24,2.78,7.343
+300,4,2010-05-07,LED desk lamp with USB charging port,399323.86,0,73.47,2.835,7.343
+301,5,2010-05-14,Blueberry scented candle,384357.94,0,77.18,2.854,7.343
+302,2,2010-05-21,Stainless steel water bottle,343763.17,0,75.81,2.826,7.343
+303,3,2010-05-28,Leather messenger bag,350089.23,0,78.6,2.759,7.343
+304,2,2010-06-04,Organic coconut oil,396968.8,0,78.53,2.705,7.343
+305,1,2010-06-11,Bluetooth wireless earbuds,355017.09,0,82.1,2.668,7.343
+306,4,2010-06-18,Floral patterned throw pillow,364076.85,0,83.52,2.637,7.343
+307,5,2010-06-25,Bamboo cutting board set,357346.48,0,83.79,2.653,7.343
+308,2,2010-07-02,Aromatherapy essential oil diffuser,381151.72,0,82.2,2.669,7.346
+309,3,2010-07-09,Resistance band set,349214.18,0,81.75,2.642,7.346
+310,1,2010-07-16,Ceramic plant pot with saucer,352728.78,0,84.32,2.623,7.346
+311,4,2010-07-23,Insulated lunch box,352864.49,0,83.32,2.608,7.346
+312,5,2010-07-30,Himalayan salt lamp,347955.05,0,82.04,2.64,7.346
+313,2,2010-08-06,Reusable silicone food storage bags,402635.76,0,85.13,2.627,7.346
+314,3,2010-08-13,Handwoven rattan basket,339597.38,0,86.74,2.692,7.346
+315,2,2010-08-20,Yoga mat with carrying strap,351728.21,0,88.02,2.664,7.346
+316,1,2010-08-27,Stainless steel french press coffee maker,362134.09,0,86.15,2.619,7.346
+317,4,2010-09-03,Memory foam travel neck pillow,366473.97,0,84.16,2.577,7.346
+318,5,2010-09-10,Glass meal prep containers set,352260.97,1,80.84,2.565,7.346
+319,2,2010-09-17,Vegan leather wallet,363064.64,0,82.36,2.582,7.346
+320,3,2010-09-24,LED desk lamp with USB charging port,355626.87,0,76.9,2.624,7.346
+321,2,2010-10-01,Blueberry scented candle,358784.1,0,73.6,2.603,7.564
+322,1,2010-10-08,Stainless steel water bottle,395107.35,0,66.99,2.633,7.564
+323,4,2010-10-15,Leather messenger bag,345584.39,0,69.71,2.72,7.564
+324,5,2010-10-22,Organic coconut oil,348895.98,0,71.64,2.725,7.564
+325,2,2010-10-29,Bluetooth wireless earbuds,348591.74,0,72.04,2.716,7.564
+326,3,2010-11-05,Floral patterned throw pillow,423175.56,0,62.94,2.689,7.564
+327,1,2010-11-12,Bamboo cutting board set,386635.03,0,62.79,2.728,7.564
+328,4,2010-11-19,Aromatherapy essential oil diffuser,372545.32,0,57.72,2.771,7.564
+329,5,2010-11-26,Resistance band set,565567.84,1,68.71,2.735,7.564
+330,2,2010-12-03,Ceramic plant pot with saucer,476420.77,0,53.76,2.708,7.564
+331,3,2010-12-10,Insulated lunch box,467642.03,0,51.13,2.843,7.564
+332,2,2010-12-17,Himalayan salt lamp,498159.39,0,52.2,2.869,7.564
+333,1,2010-12-24,Reusable silicone food storage bags,605990.41,0,57.16,2.886,7.564
+334,4,2010-12-31,Handwoven rattan basket,382677.76,1,53.2,2.943,7.564
+335,5,2011-01-07,Yoga mat with carrying strap,378241.34,0,53.35,2.976,7.551
+336,2,2011-01-14,Stainless steel french press coffee maker,381061.1,0,44.76,2.983,7.551
+337,3,2011-01-21,Memory foam travel neck pillow,350876.7,0,50.74,3.016,7.551
+338,1,2011-01-28,Glass meal prep containers set,364866.24,0,48.71,3.01,7.551
+339,4,2011-02-04,Vegan leather wallet,438516.53,0,45.95,2.989,7.551
+340,5,2011-02-11,LED desk lamp with USB charging port,430526.21,1,43.57,3.022,7.551
+341,2,2011-02-18,Blueberry scented candle,432782.1,0,61.58,3.045,7.551
+342,3,2011-02-25,Stainless steel water bottle,397211.19,0,67.4,3.065,7.551
+343,2,2011-03-04,Leather messenger bag,437084.51,0,65.11,3.288,7.551
+344,1,2011-03-11,Organic coconut oil,404753.3,0,61.29,3.459,7.551
+345,4,2011-03-18,Bluetooth wireless earbuds,392109.51,0,69.47,3.488,7.551
+346,5,2011-03-25,Floral patterned throw pillow,380683.67,0,72.94,3.473,7.551
+347,2,2011-04-01,Bamboo cutting board set,374556.08,0,68.76,3.524,7.574
+348,3,2011-04-08,Aromatherapy essential oil diffuser,384075.31,0,72.55,3.622,7.574
+349,1,2011-04-15,Resistance band set,366250.69,0,75.88,3.743,7.574
+350,4,2011-04-22,Ceramic plant pot with saucer,391860.04,0,76.91,3.807,7.574
+351,5,2011-04-29,Insulated lunch box,367405.4,0,78.69,3.81,7.574
+352,2,2011-05-06,Himalayan salt lamp,413042.12,0,69.45,3.906,7.574
+353,3,2011-05-13,Reusable silicone food storage bags,386312.68,0,79.87,3.899,7.574
+354,2,2011-05-20,Handwoven rattan basket,364603.13,0,75.79,3.907,7.574
+355,1,2011-05-27,Yoga mat with carrying strap,369350.6,0,84.41,3.786,7.574
+356,4,2011-06-03,Stainless steel french press coffee maker,394507.84,0,84.29,3.699,7.574
+357,5,2011-06-10,Memory foam travel neck pillow,391638.75,0,84.84,3.648,7.574
+358,2,2011-06-17,Glass meal prep containers set,403423.34,0,86.96,3.637,7.574
+359,3,2011-06-24,Vegan leather wallet,385520.71,0,84.94,3.594,7.574
+360,1,2011-07-01,LED desk lamp with USB charging port,368962.72,0,85.1,3.524,7.567
+361,4,2011-07-08,Blueberry scented candle,395146.24,0,85.38,3.48,7.567
+362,5,2011-07-15,Stainless steel water bottle,373454.33,0,87.14,3.575,7.567
+363,2,2011-07-22,Leather messenger bag,360617.37,0,86.19,3.651,7.567
+364,3,2011-07-29,Organic coconut oil,345381.29,0,88.07,3.682,7.567
+365,2,2011-08-05,Bluetooth wireless earbuds,409981.25,0,88.45,3.684,7.567
+366,1,2011-08-12,Floral patterned throw pillow,380376.85,0,88.88,3.638,7.567
+367,4,2011-08-19,Bamboo cutting board set,379716.91,0,88.44,3.554,7.567
+368,5,2011-08-26,Aromatherapy essential oil diffuser,366367.55,0,87.67,3.523,7.567
+369,2,2011-09-02,Resistance band set,375988.69,0,89.12,3.533,7.567
+370,3,2011-09-09,Ceramic plant pot with saucer,377347.49,1,81.72,3.546,7.567
+371,1,2011-09-16,Insulated lunch box,375629.51,0,83.63,3.526,7.567
+372,4,2011-09-23,Himalayan salt lamp,365248.94,0,80.19,3.467,7.567
+373,5,2011-09-30,Reusable silicone food storage bags,368477.93,0,82.58,3.355,7.567
+374,2,2011-10-07,Handwoven rattan basket,403342.4,0,75.54,3.285,7.197
+375,3,2011-10-14,Yoga mat with carrying strap,368282.57,0,73.75,3.274,7.197
+376,2,2011-10-21,Stainless steel french press coffee maker,394976.36,0,69.03,3.353,7.197
+377,1,2011-10-28,Memory foam travel neck pillow,389540.62,0,71.04,3.372,7.197
+378,4,2011-11-04,Glass meal prep containers set,459443.22,0,59.31,3.332,7.197
+379,5,2011-11-11,Vegan leather wallet,407764.25,0,61.7,3.297,7.197
+380,2,2011-11-18,LED desk lamp with USB charging port,398838.97,0,63.91,3.308,7.197
+381,3,2011-11-25,Blueberry scented candle,556925.19,1,68.0,3.236,7.197
+382,1,2011-12-02,Stainless steel water bottle,472511.32,0,54.97,3.172,7.197
+383,4,2011-12-09,Leather messenger bag,468772.8,0,49.26,3.158,7.197
+384,5,2011-12-16,Organic coconut oil,510747.62,0,57.95,3.159,7.197
+385,2,2011-12-23,Bluetooth wireless earbuds,551221.21,0,53.41,3.112,7.197
+386,3,2011-12-30,Floral patterned throw pillow,410553.88,1,48.29,3.129,7.197
+387,2,2012-01-06,Bamboo cutting board set,398178.21,0,52.42,3.157,6.833
+388,1,2012-01-13,Aromatherapy essential oil diffuser,367438.62,0,51.86,3.261,6.833
+389,4,2012-01-20,Resistance band set,365818.61,0,56.2,3.268,6.833
+390,5,2012-01-27,Ceramic plant pot with saucer,349518.1,0,58.06,3.29,6.833
+391,2,2012-02-03,Insulated lunch box,424960.66,0,59.33,3.36,6.833
+392,3,2012-02-10,Himalayan salt lamp,473292.47,1,51.65,3.409,6.833
+393,1,2012-02-17,Reusable silicone food storage bags,475591.08,0,52.39,3.51,6.833
+394,4,2012-02-24,Handwoven rattan basket,418925.47,0,60.12,3.555,6.833
+395,5,2012-03-02,Yoga mat with carrying strap,469752.56,0,61.65,3.63,6.833
+396,2,2012-03-09,Stainless steel french press coffee maker,445162.05,0,60.71,3.669,6.833
+397,3,2012-03-16,Memory foam travel neck pillow,411775.8,0,64.0,3.734,6.833
+398,2,2012-03-23,Glass meal prep containers set,413907.25,0,66.53,3.787,6.833
+399,1,2012-03-30,Vegan leather wallet,407488.84,0,69.36,3.845,6.833
+400,4,2012-04-06,LED desk lamp with USB charging port,503232.13,0,73.01,3.891,6.664
+401,5,2012-04-13,Blueberry scented candle,420789.74,0,72.83,3.891,6.664
+402,2,2012-04-20,Stainless steel water bottle,434822.13,0,72.05,3.877,6.664
+403,3,2012-04-27,Leather messenger bag,394616.11,0,73.39,3.814,6.664
+404,1,2012-05-04,Organic coconut oil,439913.57,0,79.51,3.749,6.664
+405,4,2012-05-11,Bluetooth wireless earbuds,431985.36,0,75.19,3.688,6.664
+406,5,2012-05-18,Floral patterned throw pillow,418112.76,0,72.38,3.63,6.664
+407,2,2012-05-25,Bamboo cutting board set,413701.29,0,78.58,3.561,6.664
+408,3,2012-06-01,Aromatherapy essential oil diffuser,432268.53,0,81.55,3.501,6.664
+409,2,2012-06-08,Resistance band set,446336.8,0,81.65,3.452,6.664
+410,1,2012-06-15,Ceramic plant pot with saucer,442074.79,0,84.66,3.393,6.664
+411,4,2012-06-22,Insulated lunch box,419497.95,0,82.7,3.346,6.664
+412,5,2012-06-29,Himalayan salt lamp,422965.33,0,86.42,3.286,6.664
+413,2,2012-07-06,Reusable silicone food storage bags,411206.5,0,83.14,3.227,6.334
+414,3,2012-07-13,Handwoven rattan basket,416913.1,0,82.28,3.256,6.334
+415,1,2012-07-20,Yoga mat with carrying strap,432424.85,0,81.38,3.311,6.334
+416,4,2012-07-27,Stainless steel french press coffee maker,389427.9,0,84.94,3.407,6.334
+417,5,2012-08-03,Memory foam travel neck pillow,419990.29,0,86.55,3.417,6.334
+418,2,2012-08-10,Glass meal prep containers set,391811.6,0,85.85,3.494,6.334
+419,3,2012-08-17,Vegan leather wallet,394918.83,0,87.36,3.571,6.334
+420,2,2012-08-24,LED desk lamp with USB charging port,412449.67,0,83.01,3.62,6.334
+421,1,2012-08-31,Blueberry scented candle,408838.73,0,85.18,3.638,6.334
+422,4,2012-09-07,Stainless steel water bottle,408229.73,1,84.99,3.73,6.334
+423,5,2012-09-14,Leather messenger bag,407589.16,0,78.36,3.717,6.334
+424,2,2012-09-21,Organic coconut oil,414392.09,0,72.78,3.721,6.334
+425,3,2012-09-28,Bluetooth wireless earbuds,389813.02,0,77.46,3.666,6.334
+426,2,2012-10-05,Floral patterned throw pillow,443557.65,0,72.74,3.617,6.034
+427,1,2012-10-12,Bamboo cutting board set,410804.39,0,70.31,3.601,6.034
+428,4,2012-10-19,Aromatherapy essential oil diffuser,424513.08,0,73.44,3.594,6.034
+429,5,2012-10-26,Resistance band set,405432.7,0,74.66,3.506,6.034
+430,2,2010-02-05,Ceramic plant pot with saucer,2135143.87,0,43.76,2.598,8.623
+431,3,2010-02-12,Insulated lunch box,2188307.39,1,28.84,2.573,8.623
+432,1,2010-02-19,Himalayan salt lamp,2049860.26,0,36.45,2.54,8.623
+433,4,2010-02-26,Reusable silicone food storage bags,1925728.84,0,41.36,2.59,8.623
+434,5,2010-03-05,Handwoven rattan basket,1971057.44,0,43.49,2.654,8.623
+435,2,2010-03-12,Yoga mat with carrying strap,1894324.09,0,49.63,2.704,8.623
+436,3,2010-03-19,Stainless steel french press coffee maker,1897429.36,0,55.19,2.743,8.623
+437,2,2010-03-26,Memory foam travel neck pillow,1762539.3,0,39.91,2.752,8.623
+438,1,2010-04-02,Glass meal prep containers set,1979247.12,0,48.77,2.74,7.896
+439,4,2010-04-09,Vegan leather wallet,1818452.72,0,54.16,2.773,7.896
+440,5,2010-04-16,LED desk lamp with USB charging port,1851519.69,0,56.23,2.81,7.896
+441,2,2010-04-23,Blueberry scented candle,1802677.9,0,56.87,2.805,7.896
+442,3,2010-04-30,Stainless steel water bottle,1817273.28,0,53.04,2.787,7.896
+443,1,2010-05-07,Leather messenger bag,2000626.14,0,56.77,2.836,7.896
+444,4,2010-05-14,Organic coconut oil,1875597.28,0,62.35,2.845,7.896
+445,5,2010-05-21,Bluetooth wireless earbuds,1903752.6,0,67.4,2.82,7.896
+446,2,2010-05-28,Floral patterned throw pillow,1857533.7,0,67.73,2.756,7.896
+447,3,2010-06-04,Bamboo cutting board set,1903290.58,0,70.83,2.701,7.896
+448,2,2010-06-11,Aromatherapy essential oil diffuser,1870619.23,0,78.45,2.668,7.896
+449,1,2010-06-18,Resistance band set,1929736.35,0,81.53,2.635,7.896
+450,4,2010-06-25,Ceramic plant pot with saucer,1846651.95,0,81.1,2.654,7.896
+451,5,2010-07-02,Insulated lunch box,1881337.21,0,73.66,2.668,7.372
+452,2,2010-07-09,Himalayan salt lamp,1812208.22,0,80.35,2.637,7.372
+453,3,2010-07-16,Reusable silicone food storage bags,1898427.66,0,78.53,2.621,7.372
+454,1,2010-07-23,Handwoven rattan basket,1848426.78,0,79.78,2.612,7.372
+455,4,2010-07-30,Yoga mat with carrying strap,1796637.61,0,80.7,2.65,7.372
+456,5,2010-08-06,Stainless steel french press coffee maker,1907638.58,0,76.53,2.64,7.372
+457,2,2010-08-13,Memory foam travel neck pillow,2007050.75,0,78.08,2.698,7.372
+458,3,2010-08-20,Glass meal prep containers set,1997181.09,0,78.83,2.671,7.372
+459,2,2010-08-27,Vegan leather wallet,1848403.92,0,74.44,2.621,7.372
+460,1,2010-09-03,LED desk lamp with USB charging port,1935857.58,0,76.8,2.584,7.372
+461,4,2010-09-10,Blueberry scented candle,1865820.81,1,73.54,2.574,7.372
+462,5,2010-09-17,Stainless steel water bottle,1899959.61,0,64.91,2.594,7.372
+463,2,2010-09-24,Leather messenger bag,1810684.68,0,60.96,2.642,7.372
+464,3,2010-10-01,Organic coconut oil,1842821.02,0,63.96,2.619,7.127
+465,1,2010-10-08,Bluetooth wireless earbuds,1951494.85,0,67.73,2.645,7.127
+466,4,2010-10-15,Floral patterned throw pillow,1867345.09,0,62.03,2.732,7.127
+467,5,2010-10-22,Bamboo cutting board set,1927610.06,0,64.17,2.736,7.127
+468,2,2010-10-29,Aromatherapy essential oil diffuser,1933333.0,0,56.94,2.718,7.127
+469,3,2010-11-05,Resistance band set,2013115.79,0,51.6,2.699,7.127
+470,2,2010-11-12,Ceramic plant pot with saucer,1999794.26,0,52.65,2.741,7.127
+471,1,2010-11-19,Insulated lunch box,2097809.4,0,48.05,2.78,7.127
+472,4,2010-11-26,Himalayan salt lamp,2789469.45,1,48.08,2.752,7.127
+473,5,2010-12-03,Reusable silicone food storage bags,2102530.17,0,46.4,2.727,7.127
+474,2,2010-12-10,Handwoven rattan basket,2302504.86,0,42.4,2.86,7.127
+475,3,2010-12-17,Yoga mat with carrying strap,2740057.14,0,46.57,2.884,7.127
+476,1,2010-12-24,Stainless steel french press coffee maker,3526713.39,0,43.21,2.887,7.127
+477,4,2010-12-31,Memory foam travel neck pillow,1794868.74,1,38.09,2.955,7.127
+478,5,2011-01-07,Glass meal prep containers set,1862476.27,0,39.34,2.98,6.51
+479,2,2011-01-14,Vegan leather wallet,1865502.46,0,31.6,2.992,6.51
+480,3,2011-01-21,LED desk lamp with USB charging port,1886393.94,0,38.34,3.017,6.51
+481,2,2011-01-28,Blueberry scented candle,1814240.85,0,40.6,3.022,6.51
+482,1,2011-02-04,Stainless steel water bottle,2119086.04,0,34.61,2.996,6.51
+483,4,2011-02-11,Leather messenger bag,2187847.29,1,33.29,3.033,6.51
+484,5,2011-02-18,Organic coconut oil,2316495.56,0,48.17,3.058,6.51
+485,2,2011-02-25,Bluetooth wireless earbuds,2078094.69,0,49.0,3.087,6.51
+486,3,2011-03-04,Floral patterned throw pillow,2103455.75,0,46.56,3.305,6.51
+487,1,2011-03-11,Bamboo cutting board set,2039818.41,0,50.93,3.461,6.51
+488,4,2011-03-18,Aromatherapy essential oil diffuser,2116475.38,0,51.86,3.495,6.51
+489,5,2011-03-25,Resistance band set,1944164.32,0,59.1,3.48,6.51
+490,2,2011-04-01,Ceramic plant pot with saucer,1900246.47,0,56.99,3.521,5.946
+491,3,2011-04-08,Insulated lunch box,2074953.46,0,62.61,3.605,5.946
+492,2,2011-04-15,Himalayan salt lamp,1960587.76,0,62.34,3.724,5.946
+493,1,2011-04-22,Reusable silicone food storage bags,2220600.76,0,68.8,3.781,5.946
+494,4,2011-04-29,Handwoven rattan basket,1878167.44,0,64.22,3.781,5.946
+495,5,2011-05-06,Yoga mat with carrying strap,2063682.76,0,63.41,3.866,5.946
+496,2,2011-05-13,Stainless steel french press coffee maker,2002362.37,0,70.65,3.872,5.946
+497,3,2011-05-20,Memory foam travel neck pillow,2015563.48,0,70.49,3.881,5.946
+498,1,2011-05-27,Glass meal prep containers set,1986597.95,0,73.65,3.771,5.946
+499,4,2011-06-03,Vegan leather wallet,2065377.15,0,78.26,3.683,5.946
